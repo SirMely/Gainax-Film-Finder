@@ -1,23 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import gainaxMovies from "./data/gainaxMovies.json";
+import Header from "./components/Header";
+import SearchBar from "./components/SearchBar";
+import MovieList from "./components/MovieList";
+import PopularFilms from "./components/PopularFilms";
+import "./App.css"
 
 function App() {
+  const [movies, setMovies] = useState(gainaxMovies);
+  const [searchTerm, setSearchTerm] = useState("");
+
+  const handleSearch = (term) => {
+    setSearchTerm(term);
+    setMovies(
+      gainaxMovies.filter((movie) =>
+        movie.title.toLowerCase().includes(term.toLowerCase())
+      )
+    );
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header />
+      <PopularFilms />
+      <SearchBar onSearch={handleSearch} />
+      <MovieList movies={movies} />
     </div>
   );
 }

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Neon Genesis Evangelion",
+    "year": 1995,
+    "director": "Hideaki Anno",
+    "description": "A groundbreaking mecha anime exploring the complexities of human emotion.",
+    "poster": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 2,
+    "title": "Gunbuster",
+    "year": 1988,
+    "director": "Hideaki Anno",
+    "description": "A sci-fi anime featuring epic space battles and emotional storytelling.",
+    "poster": "https://via.placeholder.com/150"
+  },
+  {
+    "id": 3,
+    "title": "Nadia: The Secret of Blue Water",
+    "year": 1990,
+    "director": "Hideaki Anno",
+    "description": "An adventure series inspired by Jules Verne's works.",
+    "poster": "https://via.placeholder.com/150"
+  }
+]
