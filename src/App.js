@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import gainaxMovies from "./data/gainaxMovies.json";
 import Header from "./components/Header";
-import SearchBar from "./components/SearchBar";
 import MovieList from "./components/MovieList";
 import PopularFilms from "./components/PopularFilms";
 import "./App.css"
@@ -23,7 +22,6 @@ function App() {
     <div>
       <Header />
       <PopularFilms />
-      <SearchBar onSearch={handleSearch} />
       <MovieList movies={movies} />
     </div>
   );

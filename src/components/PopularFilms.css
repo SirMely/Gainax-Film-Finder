@@ -1,6 +1,7 @@
 /* General Container */
-.video-container {
+.video-section {
     position: relative;
+    padding: 0 50px;
 }
 
 .video-content {
@@ -10,11 +11,21 @@
     margin-bottom: 30px;
 }
 
+.video-content.left-to-right {
+    flex-direction: row;
+   /* Makes the first one stay in a normal flex */
+}
+
+.video-content.right-to-left {
+    flex-direction: row-reverse;
+    /* This reverses the flex row to show Text box left to right */
+}
+
 /* Thumbnail */
 .video-thumbnail {
     position: relative;
-    width: 600px;
-    height: 400px;
+    width: 100%;
+    height: 470px;
     cursor: pointer;
 }
 
@@ -22,7 +33,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-radius: 10px;
+
 }
 
 .play-button {
@@ -97,19 +108,31 @@
     padding: 30px 15px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     width: 100%;
-    height: 300px;
-    max-width: 300px;
+    height: 410px;
+    max-width: 400px;
     text-align: center;
 }
 
-.text-card h2 {
-    font-size: 24px;
+.text-card h1 {
+    text-align: left;
+    font-size: 4em;
     color: #333;
     margin-bottom: 10px;
 }
 
-.text-card p {
-    font-size: 16px;
-    color: #666;
-    line-height: 1.6;
+.left-text h1 {
+    text-align: left;
 }
+
+.right-text h1 {
+    text-align: center;
+}
+
+.text-card p {
+    font-size: 1.2em;
+    color: #333;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+/* End of code */

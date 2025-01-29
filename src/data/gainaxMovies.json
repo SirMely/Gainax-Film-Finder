@@ -1,26 +1,74 @@
 [
   {
     "id": 1,
-    "title": "Neon Genesis Evangelion",
-    "year": 1995,
-    "director": "Hideaki Anno",
-    "description": "A groundbreaking mecha anime exploring the complexities of human emotion.",
-    "poster": "https://via.placeholder.com/150"
+    "title": "Royal Space Force: The Wings of Honnêamise",
+    "year": 1987,
+    "description": "A young man dreams of becoming an astronaut in a militaristic society.",
+    "director": "Hiroyuki Yamaga",
+    "runtime": "119 minutes",
+    "poster": "/images/RoyalSpaceForce.png"
   },
   {
     "id": 2,
-    "title": "Gunbuster",
-    "year": 1988,
+    "title": "Nadia: The Secret of Blue Water",
+    "year": 1991,
+    "description": "A young inventor and a mysterious girl embark on an adventure to uncover the secrets of a mystical blue stone.",
     "director": "Hideaki Anno",
-    "description": "A sci-fi anime featuring epic space battles and emotional storytelling.",
-    "poster": "https://via.placeholder.com/150"
+    "runtime": "90 minutes",
+    "poster": "/images/NadiaBlueWater.jpg"
   },
   {
     "id": 3,
-    "title": "Nadia: The Secret of Blue Water",
-    "year": 1990,
+    "title": "Neon Genesis Evangelion: Death & Rebirth",
+    "year": 1997,
+    "description": "A recap of the Neon Genesis Evangelion series, leading into new material.",
+    "director": "Hideaki Anno, Masayuki, Kazuya Tsurumaki",
+    "runtime": "101 minutes",
+    "poster": "/images/NeonGenDeath.png"
+  },
+  {
+    "id": 4,
+    "title": "The End of Evangelion",
+    "year": 1997,
+    "description": "An alternate ending to the Neon Genesis Evangelion series.",
+    "director": "Hideaki Anno, Kazuya Tsurumaki",
+    "runtime": "87 minutes",
+    "poster": "/images/EndofEvangelion.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Revival of Evangelion",
+    "year": 1998,
+    "description": "A compilation of 'Death (True)²' and 'The End of Evangelion'.",
     "director": "Hideaki Anno",
-    "description": "An adventure series inspired by Jules Verne's works.",
-    "poster": "https://via.placeholder.com/150"
+    "runtime": "160 minutes",
+    "poster": "/images/RevivalofEvangelion.png"
+  },
+  {
+    "id": 6,
+    "title": "Gunbuster vs. Diebuster",
+    "year": 2006,
+    "description": "A compilation film combining the Gunbuster and Diebuster series.",
+    "director": "Hideaki Anno, Kazuya Tsurumaki",
+    "runtime": "95 minutes",
+    "poster": "/images/GunbusterVDiebuster.png"
+  },
+  {
+    "id": 7,
+    "title": "Gurren Lagann The Movie: Childhood's End",
+    "year": 2008,
+    "description": "A retelling of the first half of the Gurren Lagann series.",
+    "director": "Hiroyuki Imaishi",
+    "runtime": "112 minutes",
+    "poster": "/images/TengenToppaGurrenLagannChildhood.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Gurren Lagann The Movie: The Lights in the Sky are Stars",
+    "year": 2009,
+    "description": "A retelling of the second half of the Gurren Lagann series.",
+    "director": "Hiroyuki Imaishi",
+    "runtime": "126 minutes",
+    "poster": "/images/GurrenLightsAreStars.png"
   }
 ]

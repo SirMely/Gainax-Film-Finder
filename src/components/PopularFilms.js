@@ -29,7 +29,7 @@ function PopularFilms() {
         },
         {
             id: 2,
-            videoId: "TdYgZov_1uk", // Replace with another video ID
+            videoId: "TdYgZov_1uk", 
             thumbnail: RoyalSpace,
             title: "Royal Space Force",
             description:
@@ -38,10 +38,13 @@ function PopularFilms() {
     ];
 
     return (
-        <div className="video-container">
-            {videoCards.map((card) => (
-                <div key={card.id} className="video-content">
-                    {/* Thumbnail + Text Card */}
+        <section className="video-section">
+            {videoCards.map((card, index) => (
+                <div
+                    key={card.id}
+                    className={`video-content ${index % 2 === 0 ? "left-to-right" : "right-to-left"}`} /* This is a nice way to add classes to expressions*/
+                >
+                    {/* Thumbnail */}
                     <div
                         className="video-thumbnail"
                         onClick={() =>
@@ -55,8 +58,9 @@ function PopularFilms() {
                     </div>
 
                     {/* Text Card */}
-                    <div className="text-card">
-                        <h2>{card.title}</h2>
+                    <div className={`text-card ${index % 2 === 0 ? "left-text" : "right-text"}`} 
+                    >
+                        <h1>{card.title}</h1>
                         <p>{card.description}</p>
                     </div>
                 </div>
@@ -78,7 +82,7 @@ function PopularFilms() {
                     </div>
                 </div>
             )}
-        </div>
+        </section>
     );
 }
 
