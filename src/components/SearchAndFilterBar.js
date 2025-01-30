@@ -26,11 +26,12 @@ function SearchAndFilterBar({ onSearch, onSortChange, onTypeChange }) {
                 </select>
 
                 {/* Type Filter Dropdown */}
+                
                 <select onChange={(e) => onTypeChange(e.target.value)}>
                     <option value="all">All Types</option>
-                    <option value="Movie">Movies</option>
+                    <option value="Movies">Movies</option>
                     <option value="TV Show">TV Shows</option>
-                    <option value="OVA">OVAs</option>
+                    <option value="OVAs">OVAs</option>
                 </select>
             </div>
         </div>

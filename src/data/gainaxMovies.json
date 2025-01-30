@@ -6,16 +6,18 @@
     "description": "A young man dreams of becoming an astronaut in a militaristic society.",
     "director": "Hiroyuki Yamaga",
     "runtime": "119 minutes",
+    "type": "Movies",
     "poster": "/images/RoyalSpaceForce.png"
   },
   {
     "id": 2,
-    "title": "Nadia: The Secret of Blue Water",
+    "title": "Nadia: The Secret of Blue Water: The Motion Picture",
     "year": 1991,
     "description": "A young inventor and a mysterious girl embark on an adventure to uncover the secrets of a mystical blue stone.",
     "director": "Hideaki Anno",
     "runtime": "90 minutes",
-    "poster": "/images/NadiaBlueWater.jpg"
+    "type": "Movies",
+    "poster": "/images/NadiaMotionPicture.jpg"
   },
   {
     "id": 3,
@@ -24,6 +26,7 @@
     "description": "A recap of the Neon Genesis Evangelion series, leading into new material.",
     "director": "Hideaki Anno, Masayuki, Kazuya Tsurumaki",
     "runtime": "101 minutes",
+    "type": "Movies",
     "poster": "/images/NeonGenDeath.png"
   },
   {
@@ -33,6 +36,7 @@
     "description": "An alternate ending to the Neon Genesis Evangelion series.",
     "director": "Hideaki Anno, Kazuya Tsurumaki",
     "runtime": "87 minutes",
+    "type": "Movies",
     "poster": "/images/EndofEvangelion.jpg"
   },
   {
@@ -42,15 +46,17 @@
     "description": "A compilation of 'Death (True)²' and 'The End of Evangelion'.",
     "director": "Hideaki Anno",
     "runtime": "160 minutes",
+    "type": "Movies",
     "poster": "/images/RevivalofEvangelion.png"
   },
   {
     "id": 6,
-    "title": "Gunbuster vs. Diebuster",
+    "title": "Gunbuster vs. Diebuster Aim for the Top!",
     "year": 2006,
     "description": "A compilation film combining the Gunbuster and Diebuster series.",
     "director": "Hideaki Anno, Kazuya Tsurumaki",
-    "runtime": "95 minutes",
+    "runtime": "120 minutes",
+    "type": "Movies",
     "poster": "/images/GunbusterVDiebuster.png"
   },
   {
@@ -60,6 +66,7 @@
     "description": "A retelling of the first half of the Gurren Lagann series.",
     "director": "Hiroyuki Imaishi",
     "runtime": "112 minutes",
+    "type": "Movies",
     "poster": "/images/TengenToppaGurrenLagannChildhood.jpg"
   },
   {
@@ -69,6 +76,294 @@
     "description": "A retelling of the second half of the Gurren Lagann series.",
     "director": "Hiroyuki Imaishi",
     "runtime": "126 minutes",
+    "type": "Movies",
     "poster": "/images/GurrenLightsAreStars.png"
+  },
+  {
+    "id": 9,
+    "title": "Nadia: The Secret of Blue Water",
+    "year": 1990,
+    "description": "An adventure series inspired by Jules Verne's works, following a young inventor and a mysterious girl named Nadia.",
+    "director": "Hideaki Anno, Shinji Higuchi",
+    "runtime": "39 episodes",
+    "type": "TV Show",
+    "poster": "/images/NadiaBlueWater.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Neon Genesis Evangelion",
+    "year": 1995,
+    "description": "A groundbreaking mecha series that delves into psychological and philosophical themes as teenagers pilot giant robots to protect humanity.",
+    "director": "Hideaki Anno",
+    "runtime": "26 episodes",
+    "type": "TV Show",
+    "poster": "/images/NeonGenesisEvangelion.jpg"
+  },
+  {
+    "id": 11,
+    "title": "His and Her Circumstances (Kare Kano)",
+    "year": 1998,
+    "description": "A romantic comedy exploring the relationship between two high-achieving high school students who discover each other's hidden vulnerabilities.",
+    "director": "Hideaki Anno, Kazuya Tsurumaki",
+    "runtime": "26 episodes",
+    "type": "TV Show",
+    "poster": "/images/KareKano.png"
+  },
+  {
+    "id": 12,
+    "title": "Oruchuban Ebichu",
+    "year": 1999,
+    "description": "A comedic series about a housekeeping hamster named Ebichu and her often inappropriate adventures.",
+    "director": "Daichi Akitaro",
+    "runtime": "24 episodes",
+    "type": "TV Show",
+    "poster": "/images/OruchubanEbichu.png"
+  },
+  {
+    "id": 13,
+    "title": "Mahoromatic",
+    "year": 2001,
+    "description": "A sci-fi romantic comedy about a combat android who retires to become a maid for a teenage boy.",
+    "director": "Hiroyuki Yamaga",
+    "runtime": "26 episodes",
+    "type": "TV Show",
+    "poster": "/images/Mahoromatic.png"
+  },
+  {
+    "id": 14,
+    "title": "Magical Shopping Arcade Abenobashi",
+    "year": 2002,
+    "description": "A fantasy adventure where two childhood friends are transported to various parallel worlds, each parodying different genres.",
+    "director": "Hiroyuki Yamaga",
+    "runtime": "13 episodes",
+    "type": "TV Show",
+    "poster": "/images/Abenobashi.jpg"
+  },
+  {
+    "id": 15,
+    "title": "Petite Princess Yucie",
+    "year": 2002,
+    "description": "A magical girl series following Yucie, a 17-year-old stuck in a 10-year-old's body, as she strives to become the Platinum Princess.",
+    "director": "Masahiko Otsuka",
+    "runtime": "26 episodes",
+    "type": "TV Show",
+    "poster": "/images/PetitePrincessYucie.png"
+  },
+  {
+    "id": 16,
+    "title": "This Ugly yet Beautiful World",
+    "year": 2004,
+    "description": "A sci-fi romance exploring the relationship between a high school boy and a mysterious girl who appears in a flash of light.",
+    "director": "Shouji Saeki",
+    "runtime": "12 episodes",
+    "type": "TV Show",
+    "poster": "/images/UglyBeautifulWorld.jpg"
+  },
+  {
+    "id": 17,
+    "title": "He Is My Master",
+    "year": 2005,
+    "description": "A comedy about two runaway sisters who become maids for a perverted teenage millionaire.",
+    "director": "Shinobu Yoshioka",
+    "runtime": "12 episodes",
+    "type": "TV Show",
+    "poster": "/images/HeIsMyMaster.jpg"
+  },
+  {
+    "id": 18,
+    "title": "Gurren Lagann",
+    "year": 2007,
+    "description": "An action-packed mecha series that follows humanity's fight for freedom against oppressive rulers in a spiral-themed universe.",
+    "director": "Hiroyuki Imaishi",
+    "runtime": "27 episodes",
+    "type": "TV Show",
+    "poster": "/images/GurrenLagann.png"
+  },
+  {
+    "id": 19,
+    "title": "Corpse Princess (Shikabane Hime)",
+    "year": 2008,
+    "description": "A supernatural action series about a deceased girl who must kill 108 undead beings to gain entry into heaven.",
+    "director": "Masahiko Murata",
+    "runtime": "25 episodes",
+    "type": "TV Show",
+    "poster": "/images/ShikabaneHime.jpg"
+  },
+  {
+    "id": 20,
+    "title": "Hanamaru Kindergarten",
+    "year": 2010,
+    "description": "A slice-of-life comedy focusing on the daily lives of kindergarten children and their teachers.",
+    "director": "Seiji Mizushima",
+    "runtime": "12 episodes",
+    "type": "TV Show",
+    "poster": "/images/HanamaruKindergarten.png"
+  },
+  {
+    "id": 21,
+    "title": "Panty & Stocking with Garterbelt",
+    "year": 2010,
+    "description": "A raunchy action-comedy featuring two angel sisters combating evil spirits in a unique animation style.",
+    "director": "Hiroyuki Imaishi",
+    "runtime": "13 episodes",
+    "type": "TV Show",
+    "poster": "/images/PantyStocking.png"
+  },
+  {
+    "id": 22,
+    "title": "The Mystic Archives of Dantalian",
+    "year": 2011,
+    "description": "A mystery series centered on a young man who inherits a library of magical books and partners with a girl to solve supernatural cases.",
+    "director": "Yutaka Uemura",
+    "runtime": "12 episodes",
+    "type": "TV Show",
+    "poster": "/images/Dantalian.png"
+  },
+  {
+    "id": 23,
+    "title": "Medaka Box",
+    "year": 2012,
+    "description": "A school-based action series following a high-achieving student council president with extraordinary abilities.",
+    "director": "Shouji Saeki",
+    "runtime": "24 episodes",
+    "type": "TV Show",
+    "poster": "/images/MedakaBox.jpg"
+  },
+  {
+    "id": 24,
+    "title": "Stella Women's Academy, High School Division Class C³",
+    "year": 2013,
+    "description": "A slice-of-life series about a high school club dedicated to airsoft gun battles.",
+    "director": "Masayoshi Kawajiri",
+    "runtime": "13 episodes",
+    "type": "TV Show",
+    "poster": "/images/StellaC3.png"
+  },
+  {
+    "id": 25,
+    "title": "Wish Upon the Pleiades",
+    "year": 2015,
+    "description": "A collaboration with Subaru, this magical girl series follows a group of girls collecting engine fragments for an alien spacecraft.",
+    "director": "Shouji Saeki",
+    "runtime": "12 episodes",
+    "type": "TV Show",
+    "poster": "/images/WishUponThePleiades.jpg"
+  },
+  {
+  "id": 26,
+  "title": "Magica Wars",
+  "year": 2014,
+  "description": "A media franchise where each magical girl represents one of Japan's 47 prefectures, battling impurities known as Magatsuhi.",
+  "director": "Ayano Ohnoki",
+  "runtime": "26 episodes",
+  "type": "TV Show",
+  "poster": "/images/MagicaWars.jpg"
+  },
+  {
+    "id": 27,
+    "title": "Gunbuster (Top o Nerae!)",
+    "year": 1988,
+    "description": "A six-episode OVA series following a young pilot selected to pilot a gigantic robot as a key point of Earth's defense during a space war.",
+    "director": "Hideaki Anno",
+    "runtime": "6 episodes",
+    "type": "OVAs",
+    "poster": "/images/Gunbuster.png"
+  },
+  {
+    "id": 28,
+    "title": "Otaku no Video",
+    "year": 1991,
+    "description": "A two-episode OVA that blends animation and live-action segments, providing a satirical look at the life of otaku and the rise of Gainax itself.",
+    "director": "Takeshi Mori",
+    "runtime": "2 episodes",
+    "type": "OVAs",
+    "poster": "/images/OtakuNoVideo.png"
+  },
+  {
+    "id": 29,
+    "title": "FLCL (Fooly Cooly)",
+    "year": 2000,
+    "description": "A six-episode OVA series that tells the story of a 12-year-old boy whose life is turned upside down by a mysterious woman wielding a guitar.",
+    "director": "Kazuya Tsurumaki",
+    "runtime": "6 episodes",
+    "type": "OVAs",
+    "poster": "/images/FLCL.jpg"
+  },
+  {
+    "id": 30,
+    "title": "Re: Cutie Honey",
+    "year": 2004,
+    "description": "A three-episode OVA co-produced with Toei Animation, reimagining the classic 'Cutie Honey' series with modern animation and storytelling.",
+    "director": "Hiroyuki Imaishi",
+    "runtime": "3 episodes",
+    "type": "OVAs",
+    "poster": "/images/ReCutieHoney.jpg"
+  },
+  {
+    "id": 31,
+    "title": "Diebuster (Top o Nerae 2!)",
+    "year": 2004,
+    "description": "A six-episode OVA series and the sequel to 'Gunbuster,' following a new protagonist in a distant future setting.",
+    "director": "Kazuya Tsurumaki",
+    "runtime": "6 episodes",
+    "type": "OVAs",
+    "poster": "/images/Diebuster.jpg"
+  },
+  {
+    "id": 33,
+    "title": "Mahoromatic: I'm Home!",
+    "year": 2009,
+    "description": "A two-episode OVA that serves as an epilogue to the 'Mahoromatic' TV series, providing additional insights into the characters' lives.",
+    "director": "Hiroyuki Yamaga",
+    "runtime": "2 episodes",
+    "type": "OVAs",
+    "poster": "/images/MahoromaticImHome.jpg"
+  },
+  {
+    "id": 34,
+    "title": "Wish Upon the Pleiades (OVA)",
+    "year": 2011,
+    "description": "A four-episode ONA co-produced with Subaru, featuring a group of magical girls on a quest to collect engine fragments for an alien spacecraft.",
+    "director": "Shouji Saeki",
+    "runtime": "4 episodes",
+    "type": "OVAs",
+    "poster": "/images/WishUponThePleiadesOVA.jpg"
+  },
+  {
+    "id": 35,
+    "title": "Aoki Uru: Overture",
+    "year": 2015,
+    "description": "A short film serving as a prologue to the planned 'Aoki Uru' movie, showcasing the project's animation style and themes.",
+    "director": "Hiroyuki Yamaga",
+    "runtime": "Short Film",
+    "type": "OVAs",
+    "poster": "/images/AokiUru.png"
+  },
+  {
+    "id": 36,
+    "title": "Blazing Transfer Student",
+    "year": 1991,
+    "description": "A two-episode OVA about a transfer student who fights his way through a high school where battles determine everything.",
+    "director": "Takeshi Mori",
+    "runtime": "2 episodes",
+    "type": "OVAs",
+    "poster": "/images/BlazingTransferStudent.png"
+  },
+  
+  {
+    "id": 37,
+    "title": "Money Wars",
+    "year": 1991,
+    "description": "A single-episode OVA focusing on financial schemes and corporate battles in the high-stakes world of business.",
+    "director": "Osamu Dezaki",
+    "runtime": "1 episode",
+    "poster": "/images/MoneyWars.jpg",
+    "type": "OVAs"
   }
+
 ]
+
+
+
+
+

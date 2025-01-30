@@ -16,6 +16,10 @@
     perspective: 1000px;
 }
 
+.movie-card:hover {
+    cursor: pointer;
+}
+
 .movie-card-front,
 .movie-card-back {
     width: 100%;
@@ -73,7 +77,6 @@
     justify-content: center;
 }
 
-/* RESTORING YOUR BACK CARD DESIGN */
 .movie-card-back h3 {
     font-size: 16px;
     color: #ffcc00;
@@ -84,4 +87,14 @@
     margin: 5px 0;
     font-size: 13px;
     color: #ddd;
+    padding: 10px
+}
+
+/* Media Quieries */
+
+@media (max-width: 650px) {
+    .movie-list {
+        display: flex;
+        flex-direction: column;
+    }
 }

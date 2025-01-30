@@ -6,7 +6,7 @@ import SearchAndFilterBar from "./SearchAndFilterBar";
 function MovieList({ movies = [] }) {
     const [searchQuery, setSearchQuery] = useState("");
     const [sortOption, setSortOption] = useState("title");
-    const [typeFilter, setTypeFilter] = useState("all"); // New state for type filter
+    const [typeFilter, setTypeFilter] = useState("all");
 
     // Filter movies by search query
     const filteredMovies = movies.filter((movie) =>
