@@ -2,15 +2,20 @@ footer {
     border-top: 1px solid #f5f5f5;
     padding: 20px 10px;
     text-align: center;
-    font-size: 2em;
-}
-
-span {
+    font-size: 1.7em;
     color: #f4f4f4;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 .footerGainaxLogo {
     width: 110px;
     height: auto;
+}
+
+a {
+    text-decoration: underline;
+    color: #f4f4f4;
 }
