@@ -1,3 +1,19 @@
+# Alright if you wanna read all that gibber gabber then scroll down I guess.. Lol
+So welcome back to another read me. If you don't want to read me then click off. (joke btw) unless you want to... I won't force you of course! ~~~
+
+Back on topic now welcome back this is my official 2nd README for a project so.. LET'S GO!!!!!
+
+What is this project? So this project was made from the inspiration of another Web Developer - Jordan Jackson (here's her Github: https://github.com/jordanr2m)
+She made an awesome project called the Studio Ghibli Film Finder and you can guess where I got the inspiration from. (I guess I did just tell you..)
+So yes this project is just a database of (almost) all of the Gainax animations and the reason it's not all is because it turned out to be a pain finding all of their actual films and (ChatGPT is sometimes an unreliable demon that I want to cancel my subscription on)
+
+I started this project last Tuesday but got a massive sickness from Wendsday-Sunday but I thankfully powered through and finished it at 12 am in the morning (Currently 1:55 am while writing this) oh and for people who don't know the day it's officially Wednesday but the project was mainly done yesterday which was Tuesday. Confusing I know.
+
+But yeah this app has lots of features like 3 filter bars to find the movie you want to watch, responsive for mobile so you can find them on your phone. And I may add a favorites command to but I currently don't feel like doing all that.
+
+# So yeah that's pretty much the 4-day project push to git this out. I suffered quite a bit of spoilers trying to make this SO PLEASE TRY IT OUT :)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
