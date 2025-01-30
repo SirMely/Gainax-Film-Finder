@@ -3,11 +3,12 @@ import gainaxMovies from "./data/gainaxMovies.json";
 import Header from "./components/Header";
 import MovieList from "./components/MovieList";
 import PopularFilms from "./components/PopularFilms";
+import Footer from "./components/Footer";
 import "./App.css"
 
 function App() {
   const [movies, setMovies] = useState(gainaxMovies);
-  const [searchTerm, setSearchTerm] = useState(""); // eslint-disable-line no-unused-vars
+  const [searchTerm, setSearchTerm] = useState(""); 
 
   const handleSearch = (term) => {
     setSearchTerm(term);
@@ -16,13 +17,14 @@ function App() {
         movie.title.toLowerCase().includes(term.toLowerCase())
       )
     );
-  }; // eslint-disable-line no-unused-vars
+  };
 
   return (
     <div>
       <Header />
       <PopularFilms />
       <MovieList movies={movies} />
+      <Footer/>
     </div>
   );
 }
